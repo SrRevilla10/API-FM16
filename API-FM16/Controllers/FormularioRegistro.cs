@@ -23,6 +23,8 @@ namespace API_FM16.Controllers
         {
             List<CRMPersonalFormularioRegistro> LSTpfr = await _iPersonalForularioRegistro.GetPersonalFormularioRegistro(accion);
 
+            var entero = 0;
+
             return LSTpfr;
         }
 
